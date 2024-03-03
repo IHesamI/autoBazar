@@ -1,0 +1,6 @@
+[submodule "car-sales-server"]
+	path = car-sales-server
+	url = https://github.com/IHesamI/car-sales-server.git
+[submodule "car-sales-client"]
+	path = car-sales-client
+	url = https://github.com/IHesamI/car-sales-client.git
