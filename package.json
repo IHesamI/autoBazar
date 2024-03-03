@@ -1,0 +1,14 @@
+{
+  "name": "autobazar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dep-install": "npm --prefix ./server/ install && npm --prefix ./client/ install",
+    "dev": "start npm --prefix ./server/ run start:dev && start npm --prefix ./client/ run dev",
+    "dev-linux": "npm --prefix ./server/ run start:dev & npm --prefix ./client/ run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
