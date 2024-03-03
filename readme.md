@@ -7,6 +7,9 @@ the car shopping project root
 # clone both projects
 $ git clone --recurse-submodules  https://github.com/IHesamI/autoBazar.git
 
+```
+## Update the projects
+```bash
 # update the project
 $ git submodule update --recursive --remote 
 
