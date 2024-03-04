@@ -5,13 +5,13 @@ the car shopping project root
 ```bash
 
 # clone both projects
-$ git clone --recurse-submodules  https://github.com/IHesamI/autoBazar.git
+git clone --recurse-submodules  https://github.com/IHesamI/autoBazar.git
 
 ```
 ## Update the projects
 ```bash
 # update the project
-$ git submodule update --recursive --remote 
+git submodule update --recursive --remote 
 
 ```
 
@@ -21,12 +21,12 @@ $ git submodule update --recursive --remote
 
 ```bash
 # install
-$ npm run dep-install
+npm run dep-install
 
 # development in windows
-$ npm run dev
+npm run dev
 
 # development in linux
-$ npm run dev-linux
+npm run dev-linux
 
 ```
